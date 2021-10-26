@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+    color: #fff;
+    background: #772ea8;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+/* BOXES */
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1170px;
+    margin: 50px auto;
+}
+
+.boxes .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 80px;
+    height: 80px;
+    margin: 1rem;
+    color: #772ea8;
+    background: rgba(255,255,255, .5);
+
+}
